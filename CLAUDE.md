@@ -264,6 +264,8 @@ Proyek ini menggunakan **1 warna utama: Hijau**, dengan urutan dari tergelap hin
 | Grid gap                       | `20px`  |
 | Padding kiri & kanan section   | `40px`  |
 
+> **Aturan:** Jangan pernah menambahkan `max-width` pada elemen section manapun. Section harus selalu melebar penuh mengikuti lebar container induknya.
+
 ### Border Radius
 
 | Elemen | Nilai      | Keterangan |
