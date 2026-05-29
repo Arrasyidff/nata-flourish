@@ -7,18 +7,21 @@ type CollectionCardProps = {
 
 export default function CollectionCard({ collection }: CollectionCardProps) {
   return (
-    <div className="flex flex-col gap-4 rounded-card overflow-hidden bg-white">
-      <div className="relative aspect-square w-full bg-green-light">
-        {collection.image && (
-          <Image src={collection.image} alt={collection.name} fill className="object-cover" />
-        )}
-      </div>
-      <div className="p-4 flex flex-col gap-2">
-        <p className="text-body-3 uppercase tracking-widest text-green-normal">
-          {collection.category}
+    <div className="relative h-full rounded-card overflow-hidden group cursor-pointer">
+      <Image
+        src={collection.image}
+        alt={collection.name}
+        fill
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+      <div className="absolute inset-0 bg-linear-to-t from-black/65 via-black/10 to-transparent" />
+      <div className="absolute bottom-0 left-0 p-6 flex flex-col gap-2">
+        <h3 className="font-heading text-h5 text-white font-bold">
+          {collection.name}
+        </h3>
+        <p className="text-body-2 text-white/80 font-normal max-w-xs">
+          {collection.description}
         </p>
-        <h3 className="font-heading text-h6 text-green-darker">{collection.name}</h3>
-        <p className="text-body-2 text-foreground/70">{collection.description}</p>
       </div>
     </div>
   );
