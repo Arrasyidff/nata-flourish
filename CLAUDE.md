@@ -208,7 +208,7 @@ Proyek ini menggunakan **2 font utama**:
 | Body Text 1 | 16px      | 120%        | Regular     | —          |
 | Body Text 2 | 13px      | 120%        | Regular     | —          |
 | Body Text 3 | 11px      | 120%        | Regular     | —          |
-| Button      | 14px      | 120%        | Medium      | Uppercase  |
+| Button      | 13px      | 120%        | Medium      | Uppercase  |
 | Tagline     | 13px      | 120%        | Medium      | Uppercase  |
 
 #### Logo — Libre Baskerville
@@ -278,7 +278,7 @@ Proyek ini menggunakan **1 warna utama: Hijau**, dengan urutan dari tergelap hin
 | Properti      | Nilai    |
 |---------------|----------|
 | Padding Y     | `14px`   |
-| Padding X     | `16px`   |
+| Padding X     | `24px`   |
 | Min-width     | `155px`  |
 | Border        | `1px`    |
 | Border Radius | `9999px` |
