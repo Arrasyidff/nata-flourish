@@ -1,7 +1,9 @@
+import Hero from "@/components/sections/hero";
+
 export default function Home() {
   return (
     <main>
-      {/* sections will be added here */}
+      <Hero />
     </main>
   );
 }

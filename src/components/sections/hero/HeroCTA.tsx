@@ -2,18 +2,18 @@ import Link from "next/link";
 
 export default function HeroCTA() {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center justify-center gap-4 flex-wrap">
       <Link
         href="#collections"
-        className="inline-flex items-center justify-center min-w-[155px] px-4 py-[14px] rounded-button bg-green-normal text-white text-btn uppercase hover:bg-green-normal-hover transition-colors"
+        className="inline-flex items-center justify-center min-w-[155px] px-4 py-[14px] rounded-button border border-green-darker text-green-darker text-btn font-medium uppercase hover:bg-green-light transition-colors"
       >
-        Lihat Koleksi
+        See Our Collections
       </Link>
       <Link
         href="#contact"
-        className="inline-flex items-center justify-center min-w-[155px] px-4 py-[14px] rounded-button border border-green-normal text-green-normal text-btn uppercase hover:bg-green-light transition-colors"
+        className="inline-flex items-center justify-center min-w-[155px] px-4 py-[14px] rounded-button border border-green-darker text-green-darker text-btn font-medium uppercase hover:bg-green-light transition-colors"
       >
-        Hubungi Kami
+        Get a Free Consultation
       </Link>
     </div>
   );
