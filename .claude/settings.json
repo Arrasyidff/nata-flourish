@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cwebp public/images/hero/hero.jpg -o public/images/hero/hero.webp)",
+      "Bash(rm public/images/hero/hero.jpg)"
+    ]
+  }
+}
