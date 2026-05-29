@@ -7,7 +7,7 @@ export default function NavbarLogo() {
       <span className="font-heading text-logo font-medium uppercase tracking-widest text-green-darker">
         {company.name}
       </span>
-      <span className="font-sans text-tagline font-medium uppercase text-green-darker/70 mt-0.5">
+      <span className="font-sans text-tagline font-medium uppercase">
         {company.tagline}
       </span>
     </Link>
