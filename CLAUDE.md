@@ -219,6 +219,24 @@ Proyek ini menggunakan **2 font utama**:
 
 ---
 
+### Aturan Implementasi Font
+
+Setiap elemen teks **wajib** menerapkan `font-weight` dan `text-transform` (jika ada) sesuai tabel typography di atas. Jangan menggunakan nilai default browser — selalu set secara eksplisit.
+
+| Elemen      | Tailwind Font Weight  | Tailwind Text Transform |
+|-------------|-----------------------|-------------------------|
+| H1–H6       | `font-bold`           | —                       |
+| Body Text 1 | `font-normal`         | —                       |
+| Body Text 2 | `font-normal`         | —                       |
+| Body Text 3 | `font-normal`         | —                       |
+| Button      | `font-medium`         | `uppercase`             |
+| Tagline     | `font-medium`         | `uppercase`             |
+| Logo        | `font-medium`         | `uppercase`             |
+
+> **Catatan:** Setiap kali membuat atau mengedit komponen yang mengandung teks, pastikan class font weight dan text transform sudah sesuai dengan elemen yang dimaksud.
+
+---
+
 ### Color Palette
 
 Proyek ini menggunakan **1 warna utama: Hijau**, dengan urutan dari tergelap hingga tercerah.

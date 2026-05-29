@@ -4,10 +4,10 @@ import { company } from "@/data/company";
 export default function NavbarLogo() {
   return (
     <Link href="/" className="flex flex-col leading-none">
-      <span className="font-heading text-logo uppercase tracking-widest text-green-darker">
+      <span className="font-heading text-logo font-medium uppercase tracking-widest text-green-darker">
         {company.name}
       </span>
-      <span className="font-heading text-logo text-green-darker/70 mt-0.5">
+      <span className="font-sans text-tagline font-medium uppercase text-green-darker/70 mt-0.5">
         {company.tagline}
       </span>
     </Link>
