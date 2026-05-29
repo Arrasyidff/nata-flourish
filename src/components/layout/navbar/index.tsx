@@ -17,7 +17,7 @@ export default function Navbar() {
         scrolled ? "bg-white shadow-sm" : "bg-transparent"
       )}
     >
-      <div className="mx-auto flex h-16 items-center justify-between px-10">
+      <div className="mx-auto flex py-10 h-16 items-center justify-between px-10">
         <NavbarLogo />
         <NavbarMenu />
         <NavbarCTA />
