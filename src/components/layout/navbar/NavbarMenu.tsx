@@ -8,7 +8,7 @@ export default function NavbarMenu() {
         <Link
           key={item.href}
           href={item.href}
-          className="text-body-2 text-green-darker hover:text-green-normal transition-colors"
+          className="font-heading text-logo text-green-darker hover:text-green-normal transition-colors"
         >
           {item.label}
         </Link>

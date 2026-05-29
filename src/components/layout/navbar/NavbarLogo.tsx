@@ -3,8 +3,13 @@ import { company } from "@/data/company";
 
 export default function NavbarLogo() {
   return (
-    <Link href="/" className="font-heading text-logo uppercase tracking-widest text-green-darker">
-      {company.name}
+    <Link href="/" className="flex flex-col leading-none">
+      <span className="font-heading text-logo uppercase tracking-widest text-green-darker">
+        {company.name}
+      </span>
+      <span className="font-heading text-logo text-green-darker/70 mt-0.5">
+        {company.tagline}
+      </span>
     </Link>
   );
 }

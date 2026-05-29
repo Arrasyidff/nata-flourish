@@ -190,32 +190,32 @@ Proyek ini menggunakan **2 font utama**:
 
 > Format: `font-size / line-height` (dalam px)
 
-| Tag | Font Size | Line Height |
-|-----|-----------|-------------|
-| H1  | 38px      | 120%        |
-| H2  | 40px      | 120%        |
-| H3  | 33px      | 120%        |
-| H4  | 28px      | 120%        |
-| H5  | 23px      | 120%        |
-| H6  | 19px      | 120%        |
+| Tag | Font Size | Line Height | Font Weight |
+|-----|-----------|-------------|-------------|
+| H1  | 38px      | 120%        | Bold        |
+| H2  | 40px      | 120%        | Bold        |
+| H3  | 33px      | 120%        | Bold        |
+| H4  | 28px      | 120%        | Bold        |
+| H5  | 23px      | 120%        | Bold        |
+| H6  | 19px      | 120%        | Bold        |
 
 #### Body Text — Montserrat
 
 > Format: `font-size / line-height` (dalam px)
 
-| Elemen      | Font Size | Line Height | Keterangan |
-|-------------|-----------|-------------|------------|
-| Body Text 1 | 16px      | 120%        | —          |
-| Body Text 2 | 13px      | 120%        | —          |
-| Body Text 3 | 11px      | 120%        | —          |
-| Button      | 14px      | 120%        | Uppercase  |
-| Tagline     | 13px      | 120%        | Uppercase  |
+| Elemen      | Font Size | Line Height | Font Weight | Keterangan |
+|-------------|-----------|-------------|-------------|------------|
+| Body Text 1 | 16px      | 120%        | Regular     | —          |
+| Body Text 2 | 13px      | 120%        | Regular     | —          |
+| Body Text 3 | 11px      | 120%        | Regular     | —          |
+| Button      | 14px      | 120%        | Medium      | Uppercase  |
+| Tagline     | 13px      | 120%        | Medium      | Uppercase  |
 
 #### Logo — Libre Baskerville
 
-| Elemen | Font Size | Line Height | Keterangan |
-|--------|-----------|-------------|------------|
-| Logo   | 13px      | 120%        | Uppercase  |
+| Elemen | Font Size | Line Height | Font Weight | Keterangan |
+|--------|-----------|-------------|-------------|------------|
+| Logo   | 13px      | 120%        | Medium      | Uppercase  |
 
 ---
 

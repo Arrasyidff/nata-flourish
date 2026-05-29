@@ -1,6 +1,6 @@
 export const company = {
   name: "Nata Flourish",
-  tagline: "",
+  tagline: "Handcrafted Comfort, Bali-Made",
   address: "",
   phone: "",
   email: "",
