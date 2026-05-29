@@ -7,8 +7,8 @@ export default function Collections() {
     <SectionWrapper id="collections">
       <div className="flex flex-col gap-6">
         <SectionHeader
-          title="Our Collections"
-          description="Everything you need to furnish your space — made to order, built to last."
+          title="Koleksi Kami"
+          description="Semua yang Anda butuhkan untuk melengkapi ruangan — dibuat sesuai pesanan, dirancang tahan lama."
         />
         <CollectionGrid />
       </div>

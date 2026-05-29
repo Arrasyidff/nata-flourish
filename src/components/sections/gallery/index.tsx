@@ -5,8 +5,11 @@ import GalleryGrid from "./GalleryGrid";
 export default function Gallery() {
   return (
     <SectionWrapper id="gallery">
-      <div className="mx-auto max-w-7xl flex flex-col gap-12">
-        <SectionHeader badge="Galeri" title="Galeri Kami" />
+      <div className="flex flex-col gap-12">
+        <SectionHeader
+          title="Lihat Hasilnya Langsung"
+          description="Begini tampilan produk kami ketika sudah terpasang — di villa, area lounge, dan tepi pantai di Bali."
+        />
         <GalleryGrid />
       </div>
     </SectionWrapper>

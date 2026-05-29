@@ -27,7 +27,7 @@ export default function SectionHeader({
       {badge && <SectionBadge>{badge}</SectionBadge>}
       <h2 className="font-heading text-h2 font-bold text-green-normal-active">{title}</h2>
       {description && (
-        <p className="text-body-1 font-normal text-green-darker max-w-2xl">{description}</p>
+        <p className="text-body-1 font-normal text-green-darker">{description}</p>
       )}
     </div>
   );
