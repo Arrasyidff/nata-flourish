@@ -5,7 +5,7 @@ import CollectionGrid from "./CollectionGrid";
 export default function Collections() {
   return (
     <SectionWrapper id="collections">
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-6">
         <SectionHeader
           title="Our Collections"
           description="Everything you need to furnish your space — made to order, built to last."

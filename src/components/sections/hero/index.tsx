@@ -4,7 +4,7 @@ import HeroImage from "./HeroImage";
 
 export default function Hero() {
   return (
-    <section className="flex items-center justify-center px-10 pt-40">
+    <section className="flex items-center justify-center px-10 pt-40 pb-section">
       <div className="w-full flex flex-col items-center gap-6 text-center">
         <HeroContent />
         <HeroCTA />

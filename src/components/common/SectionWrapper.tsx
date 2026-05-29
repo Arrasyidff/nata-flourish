@@ -8,7 +8,7 @@ type SectionWrapperProps = {
 
 export default function SectionWrapper({ children, className, id }: SectionWrapperProps) {
   return (
-    <section id={id} className={cn("py-section px-10", className)}>
+    <section id={id} className={cn("pb-section px-10", className)}>
       {children}
     </section>
   );

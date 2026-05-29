@@ -266,6 +266,10 @@ Proyek ini menggunakan **1 warna utama: Hijau**, dengan urutan dari tergelap hin
 
 > **Aturan:** Jangan pernah menambahkan `max-width` pada elemen section manapun. Section harus selalu melebar penuh mengikuti lebar container induknya.
 
+> **Aturan Padding Section:** Setiap section wajib menggunakan `pb-section` (120px) sebagai padding bottom. Padding top (`pt-*`) hanya boleh ditambahkan pada section pertama (Hero) — section lainnya tidak boleh memiliki padding top.
+
+> **Aturan Warna Teks Section:** Setiap section title (heading) menggunakan warna `text-green-normal-active` (`#3a5222`) dan paragraph/deskripsi menggunakan warna `text-green-darker` (`#1a240f`). Aturan ini tidak berlaku untuk section pertama (Hero).
+
 ### Border Radius
 
 | Elemen | Nilai      | Keterangan |
