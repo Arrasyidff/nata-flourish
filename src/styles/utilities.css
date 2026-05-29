@@ -1,0 +1,23 @@
+.section-padding {
+  padding-left: 2.5rem; /* 40px */
+  padding-right: 2.5rem;
+}
+
+.section-gap {
+  margin-top: 7.5rem; /* 120px */
+  margin-bottom: 7.5rem;
+}
+
+.btn-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.2;
+}
+
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8125rem; /* 13px */
+  line-height: 1.2;
+}
