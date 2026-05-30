@@ -1,6 +1,6 @@
 const stats = [
   { value: "50+", label: "Proyek Selesai" },
-  { value: "3 Tahun", label: "Pengalaman di Bali" },
+  { value: "10+", label: "Tahun Berkarya" },
   { value: "100%", label: "Dibuat Custom" },
 ];
 
