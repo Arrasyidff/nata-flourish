@@ -38,7 +38,7 @@ export default function WhyChooseCard({ item }: WhyChooseCardProps) {
     >
       <h3
         className={cn(
-          "font-heading text-h5 font-bold",
+          "font-heading text-h6 font-bold",
           colors.heading
         )}
         style={{ textAlign: item.textPosition == 'bottom-left' ? 'left' : 'right' }}
@@ -47,7 +47,7 @@ export default function WhyChooseCard({ item }: WhyChooseCardProps) {
       </h3>
       <p
         className={cn(
-          "text-body-3 font-normal mt-2",
+          "text-body-1 font-normal mt-2",
           colors.body
         )}
         style={{ textAlign: item.textPosition == 'bottom-left' ? 'left' : 'right' }}

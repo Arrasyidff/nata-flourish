@@ -19,7 +19,7 @@ export default function CollectionCard({ collection }: CollectionCardProps) {
         <h3 className="font-heading text-h5 text-white font-bold">
           {collection.name}
         </h3>
-        <p className="text-body-2 text-white/80 font-normal max-w-xl">
+        <p className="text-body-1 text-white font-normal max-w-xl">
           {collection.description}
         </p>
       </div>
