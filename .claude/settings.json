@@ -6,7 +6,12 @@
       "Bash(chromium-cli --session about-section)",
       "Bash(which chromium *)",
       "Read(//Applications/**)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(npm run *)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(npx playwright *)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)"
     ]
   }
 }

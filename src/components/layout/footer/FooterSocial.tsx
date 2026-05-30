@@ -1,37 +1,22 @@
-import { socialLinks } from "@/data/socials";
-import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
-import InstagramIcon from "@/components/icons/InstagramIcon";
-import TikTokIcon from "@/components/icons/TikTokIcon";
+import { company } from "@/data/company";
 
-const iconMap = {
-  whatsapp: WhatsAppIcon,
-  instagram: InstagramIcon,
-  tiktok: TikTokIcon,
-};
-
-export default function FooterSocial() {
+export default function FooterContact() {
   return (
     <div className="flex flex-col gap-4">
-      <p className="text-body-2 uppercase tracking-widest font-medium text-green-light-hover">
-        Ikuti Kami
+      <p className="text-body-2 font-medium uppercase text-green-light">
+        Hubungi Kami
       </p>
-      <div className="flex items-center gap-4">
-        {socialLinks.map((link) => {
-          const Icon = iconMap[link.icon];
-          return (
-            <a
-              key={link.name}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={link.name}
-              className="text-green-light-active hover:text-green-light transition-colors"
-            >
-              <Icon size={20} />
-            </a>
-          );
-        })}
-      </div>
+      <ul className="flex flex-col gap-2">
+        <li className="text-body-2 font-normal text-green-light-active">
+          WhatsApp: {company.whatsapp}
+        </li>
+        <li className="text-body-2 font-normal text-green-light-active">
+          Instagram: {company.instagram}
+        </li>
+        <li className="text-body-2 font-normal text-green-light-active leading-relaxed">
+          {company.address}
+        </li>
+      </ul>
     </div>
   );
 }
